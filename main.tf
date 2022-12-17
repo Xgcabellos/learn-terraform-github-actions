@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "eknowedge"
+    organization = "LIKE eknowedge"
 
     workspaces {
-      name = "demo-github-actions"
+      name = "LIKE demo-github-actions"
     }
   }
 }
